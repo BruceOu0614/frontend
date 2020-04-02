@@ -1,0 +1,689 @@
+
+.whole-layout {
+  position: relative;
+  /*width: 2040px;*/
+  height: 1024px;
+
+  width: 100%;
+  /*height: 100%;*/
+  /* Layout / BG */
+
+  background: #F0F2F5;
+}
+
+/*.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}*/
+ 
+/*.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}*/
+
+.whole-layout .left-sider-layout{
+  /*background: #FFFFFF;*/
+  position: absolute;
+  width: 256px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+}
+
+.whole-layout .left-sider-layout .left-menu-layout {
+  /*background: #fff;*/
+  color: #1890FF;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+
+  position: absolute;
+  /*width: 256px;*/
+  height: 248px;
+  left: 0px;
+  top: 114px;
+
+  /* Gray / gray-1 */
+
+  /*background: #FFFFFF;*/
+  box-shadow: inset -1px 0px 0px #D9D9D9;
+}
+
+.whole-layout .left-sider-layout .school-logo-wraper-uncollapsed {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+
+  position: absolute;
+  width: 224px;
+  height: 50px;
+  left: calc(50% - 224px/2);
+  top: calc(50% - 50px/2 - 455px);
+}
+
+.whole-layout .left-sider-layout .school-logo-wraper-uncollapsed .logo-img-uncollapsed {
+  position: static;
+  width: 50px;
+  height: 50px;
+  left: calc(50% - 50px/2 - 87px);
+  top: calc(50% - 50px/2);
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 14px 0px;
+}
+
+.whole-layout .left-sider-layout .school-logo-wraper-uncollapsed .school-name {
+  position: static;
+  width: 160px;
+  height: 24px;
+  left: calc(50% - 160px/2 + 32px);
+  top: calc(50% - 24px/2);
+
+  /* Regular / 16px | 24px */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Gray / gray-9 */
+
+  color: #262626;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: center;
+  margin: 14px 0px;
+
+}
+
+.whole-layout .left-sider-layout .school-logo-wraper-collapsed {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: calc(50% - 10px);
+  top: calc(50% - 50px/2 - 455px);
+}
+
+.whole-layout .left-sider-layout .logo-img-collapsed {
+  position: static;
+  width: 50px;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 32px 15px;
+  transition: color 0.3s;
+}
+
+.whole-layout .left-sider-layout .tera-logo-img-uncollapsed {
+  position: absolute;
+  width: 81px;
+  height: 81px;
+  left: 88px;
+  top: 909px;
+}
+
+.whole-layout .left-sider-layout .tera-logo-img-collapsed {
+  position: absolute;
+  width: 81px;
+  height: 81px;
+  left: 0px;
+  top: 909px;
+}
+
+.whole-layout .site-layout .site-layout-header {
+  background: #fff;
+
+  position: absolute;
+  height: 64px;
+  left: 256px;
+  right: 0px;
+  top: 0px;
+}
+
+/*.whole-layout .site-layout .site-layout-content {
+  background: #fff;
+  position: absolute;
+  height: 960px;
+  left: 256px;
+  right: 0px;
+  top: 64px;
+}*/
+
+.whole-layout .site-layout .site-layout-header .group-18 {
+  position: flex;
+  width: 194px;
+  height: 35px;
+  left: 966px;
+  top: 13px;
+}
+
+.whole-layout .site-layout .site-layout-header .group-18 .question-circle{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 194px;
+  top: calc(50% - 24px/2);
+}
+
+.whole-layout .site-layout .site-layout-header .group-18 .question-circle .vector{
+  position: absolute;
+  left: 6.25%;
+  right: 6.25%;
+  top: 6.25%;
+  bottom: 6.25%;
+}
+
+.whole-layout .site-layout .site-layout-header .group-18 .group-17{
+  position: absolute;
+  width: 42px;
+  height: 31px;
+  right: 144px;
+  top: 13px;
+}
+
+.whole-layout .site-layout .site-layout-header .group-18 .group-17 .badge{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+
+  position: absolute;
+  width: 32px;
+  height: 22px;
+  right: 0px;
+  bottom: 9px;
+
+  /*background: #fff;*/
+  /* Gray / gray-1 */
+
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 16px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 0px 10px;
+}
+
+.whole-layout .site-layout .site-layout-header .group-18 .group-17 .bell{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 5px;
+  top: 7px;
+}
+
+.whole-layout .site-layout .site-layout-header .group-18 .user{
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+
+  position: absolute;
+  width: 98px;
+  height: 32px;
+  right: 30px;
+  top: calc(50% - 32px/2);
+}
+
+.whole-layout .site-layout .site-layout-header .group-18 .user .avatar-photo{
+  position: static;
+  width: 32px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 8px 0px;
+}
+
+.whole-layout .site-layout .site-layout-header .group-18 .user .frame-15{
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+
+  position: static;
+  width: 70px;
+  height: 22px;
+  left: 40px;
+  top: 5px;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: center;
+  margin: 8px 0px;
+}
+
+.whole-layout .site-layout .site-layout-header .group-18 .user .frame-15 .frame-15-text{
+  position: static;
+  width: 45px;
+  height: 22px;
+  left: 0px;
+  top: 0px;
+
+  /* Regular / 14px | 22px */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  /* Gray / gray-9 */
+
+  color: #262626;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 4px 0px;
+}
+
+.whole-layout .site-layout .site-layout-header .group-18 .user .frame-15 .frame-15-icon{
+  position: static;
+  width: 12px;
+  height: 12px;
+  left: 46px;
+  top: 5px;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: center;
+  margin: 4px 0px;
+}
+
+.whole-layout .site-layout .site-page-header{
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+
+  position: absolute;
+  height: 106px;
+  left: 255px;
+  right: -1px;
+  top: 65px;
+
+  /* Gray / gray-1 */
+
+  background: #FFFFFF;
+}
+
+.whole-layout .site-layout .my-class{
+  position: absolute;
+  width: 100px;
+  height: 28px;
+  left: 288px;
+  top: 203px;
+
+  /* Regular / 20px | 28px */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.whole-layout .site-layout .card-wrapper{
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+
+  position: absolute;
+  width: 1328px;
+  height: 149px;
+  left: 288px;
+  top: 255px;
+}
+
+.whole-layout .site-layout .card-wrapper .card-medium{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+
+  position: static;
+  width: 320px;
+  height: 149px;
+  left: 0px;
+  top: 0px;
+
+  /* Gray / gray-5 */
+
+  /*background: #D9D9D9;*/
+  /* Gray / gray-5 */
+
+  border: 1px solid #D9D9D9;
+  box-sizing: border-box;
+  border-radius: 2px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 16px 0px;
+}
+
+.whole-layout .site-layout .class-activity{
+  position: absolute;
+  width: 100px;
+  height: 28px;
+  left: 288px;
+  top: 436px;
+
+  /* Regular / 20px | 28px */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.whole-layout .site-layout .empty{
+  position: absolute;
+  width: 812px;
+  height: 163px;
+  left: 288px;
+  top: 489px;
+
+  background: #FFFFFF;
+}
+
+.whole-layout .site-layout .learning-situation{
+  position: absolute;
+  width: 100px;
+  height: 28px;
+  left: 288px;
+  top: 683px;
+
+  /* Regular / 20px | 28px */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.whole-layout .site-layout .frame-26{
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+
+  position: absolute;
+  width: 812px;
+  height: 196px;
+  left: 288px;
+  top: 735px;
+}
+
+.whole-layout .site-layout .frame-26 .frame-24{
+  display: flex;
+  flex-direction: column;
+  padding: 21px 139px;
+
+  position: static;
+  width: 398px;
+  height: 196px;
+  left: calc(50% - 398px/2 - 207px);
+  top: calc(50% - 196px/2);
+
+  background: #FFFFFF;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 16px 0px;
+}
+
+.whole-layout .site-layout .frame-26 .frame-24 .learning-time-day{
+  position: static;
+  width: 96px;
+  height: 24px;
+  left: 151px;
+  top: 21px;
+
+  /* Regular / 16px | 24px */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 0px 10px;
+}
+
+.whole-layout .site-layout .frame-26 .frame-24 .progress-day{
+  position: static;
+  width: 120px;
+  height: 120px;
+  left: calc(50% - 120px/2);
+  top: calc(50% - 120px/2 + 17px);
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: center;
+  margin: 0px 10px;
+}
+
+.whole-layout .site-layout .frame-26 .frame-25{
+  display: flex;
+  flex-direction: column;
+  padding: 21px 139px;
+
+  position: static;
+  width: 398px;
+  height: 196px;
+  left: calc(50% - 398px/2 + 207px);
+  top: calc(50% - 196px/2);
+
+  background: #FFFFFF;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: center;
+  margin: 16px 0px;
+}
+
+.whole-layout .site-layout .frame-26 .frame-25 .learning-time-week{
+  position: static;
+  width: 96px;
+  height: 24px;
+  left: 151px;
+  top: 21px;
+
+  /* Regular / 16px | 24px */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 0px 10px;
+}
+
+.whole-layout .site-layout .frame-26 .frame-25 .progress-week{
+  position: static;
+  width: 120px;
+  height: 120px;
+  left: calc(50% - 120px/2);
+  top: calc(50% - 120px/2 + 17px);
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: center;
+  margin: 0px 10px;
+}
+
+.whole-layout .site-layout .calender {
+  position: absolute;
+  width: 80px;
+  height: 28px;
+  left: 1132px;
+  top: 436px;
+
+  /* Regular / 20px | 28px */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.whole-layout .site-layout .date-picker{
+  position: absolute;
+  width: 276px;
+  height: 306px;
+  left: 1132px;
+  top: 488px;
+
+  /* Elevation 1 */
+
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.whole-layout .site-layout .date-picker .date-picker-line {
+  position: absolute;
+  height: 22px;
+  left: 12px;
+  right: 12px;
+  top: 5px;
+
+  /* Regular / 14px | 22px */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  display: flex;
+  align-items: center;
+
+  /* Gray / gray-6 */
+
+  color: #BFBFBF;
+  }
+
+.whole-layout .site-layout .data-picker .date-picker-pop{
+  position: absolute;
+  height: 200px;
+  left: -100px;
+  right: 0px;
+  top: 72px;
+}
